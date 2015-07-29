@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Часы доступа в Сокровищницу</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.cookie.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="vault.js"></script>
+
+  <style type="text/css">
+    .union1 { background-color: #f99; }
+    .union2 { background-color: #9fc; }
+    .union3 { background-color: #9cf; }
+
+    .panel-body { padding-bottom: 0; }
+
+    [frame] { outline: 1px solid orange; }
+
+    .region { display: inline-block; color: lightgrey; text-align: right; width: 90%; }
+  </style>
+</head>
+<body class="container">
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <span class="navbar-brand" >Сервер:</span>
+      </div>
+
+      <div class="collapse navbar-collapse">
+        <ul id="servers" class="nav navbar-nav" role="tablist">
+          <li role="presentation"><a href="#s1" aria-controls="s1" role="tab" data-toggle="tab">Арун</a></li>
+          <li role="presentation"><a href="#s2" aria-controls="s2" role="tab" data-toggle="tab">Кайатор</a></li>
+          <li role="presentation"><a href="#s3" aria-controls="s3" role="tab" data-toggle="tab">Арборея</a></li>
+          <li role="presentation"><a href="#s4" aria-controls="s4" role="tab" data-toggle="tab">Лоркада</a></li>
+          <li role="presentation"><a href="#s5" aria-controls="s5" role="tab" data-toggle="tab">Балдера</a></li>
+          <li role="presentation"><a href="#s6" aria-controls="s6" role="tab" data-toggle="tab">Вестония</a></li>
+          <li role="presentation"><a href="#s7" aria-controls="s7" role="tab" data-toggle="tab">Эссения</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Region <span class="caret"></span></a>
+            <ul id="regions" class="dropdown-menu">
+              <li><a title="http://tera-online.ru" >RU <span class="region">tera-online.ru</span></a></li>
+              <li class="disabled"><a title="http://tera.enmasse.com" href="#">NA <span class="region">tera.enmasse.com</span></a></li>
+              <li class="disabled"><a title="http://tera.gameforge.com" href="#">EU <span class="region">tera.gameforge.com</span></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="page-header">
+    
+  </div>
+
+  <div id="content" class="bs-example tab-content">
+    <div role="tabpanel" class="tab-pane" id="s2">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Часы доступа сегодня (<span id="today">29.07.2015</span>)</h3>
+        </div>
+        <div class="panel-body">
+
+          <div id="day-summary" class="container-fluid">
+            <ul class="list-group col-xs-3">
+              <li class="list-group-item union1">Сообщество Торговцев <span class="badge">14</span></li>
+              <li class="list-group-item union2">Союз Просвещенных <span class="badge">14</span></li>
+              <li class="list-group-item union3">Железный Орден <span class="badge">14</span></li>
+            </ul>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <table class="table table-hover">
+                <thead>
+                  <th>#</th>
+                  <th>Альянс</th>
+                  <th>Очки</th>
+                </thead>
+                <tbody>
+                  <tr class="text-muted"><td class="text-center col-xs-1">00</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr class="text-muted"><td>01</td><td>Free Traders</td><td>1,234,567</td></tr>
+                  <tr class="bg-success"><td>02</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>03</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>04</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>05</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>06</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>07</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>08</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>09</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>10</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>11</td><td>Iron Order</td><td>1,234,567</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-md-6">
+              <table class="table table-hover">
+                <thead>
+                  <th>#</th>
+                  <th>Альянс</th>
+                  <th>Очки</th>
+                </thead>
+                <tbody>
+                  <tr><td>12</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>13</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>14</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>15</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>16</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>17</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>18</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>19</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>20</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>21</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>22</td><td>Iron Order</td><td>1,234,567</td></tr>
+                  <tr><td>23</td><td>Enlightenen Union</td><td>1,234,567</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="s4">...</div>
+    <div role="tabpanel" class="tab-pane" id="s5">...</div>
+    <div role="tabpanel" class="tab-pane" id="s6">...</div>
+    <div role="tabpanel" class="tab-pane" id="s7">...</div>
+  </div>
+
+<div>
+
+  <!-- Nav tabs 
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Арун</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Кайатор</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Арборея</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Лоркада</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Балдера</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Вестония</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Эссения</a></li>
+  </ul>
+  -->
+
+  <!-- Tab panes 
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">...</div>
+    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+    <div role="tabpanel" class="tab-pane" id="messages">...</div>
+    <div role="tabpanel" class="tab-pane" id="settings">...</div>
+  </div>
+  -->
+
+</div>
+
+
+</body>
+</html>
