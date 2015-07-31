@@ -23,13 +23,12 @@ function log() {
 	console.log(s.join(", "));
 }
 
-function renderTable(data) {
+function renderTable(json) {
 	var servers = {}
 
 	// transform servers
-	var i = 0;
-	$.each(data, function(name, entries) {
-		var s = {id: 's' + ++i, name: name, data: entries};
+	$.each(json.info.servers, function(i, name) {
+		var s = {id: 's' + (i+1), name: name, data: json.competition[name]};
 		servers[name] = s;
 	});
 
@@ -68,6 +67,8 @@ function renderTable(data) {
 		$('#day-summary li .badge', tab).each(function(i, el) {
 			$(el).text(hours[i+1]);
 		});
+
+		$('#today', tab).text(new Date(json.info.date).toLocaleDateString());
 
 
 		$('table', tab).each(function(i, table) {
@@ -112,8 +113,6 @@ function renderTable(data) {
 
 		var hour = new Date().getUTCHours() + 3;	// RU region timezone
 		hour = new Date().getHours();
-
-		$('#content #today').text = new Date().toLocaleString();
 
 		$.each(servers, function(name, server) {
 			var tab = tpl.clone();
