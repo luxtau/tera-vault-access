@@ -91,7 +91,7 @@ function renderTable(json) {
 				// console.log('li', typeof(li), li);
 				var td = li.children();
 
-				$(td[0]).text(data.hour < 10 ? '0' + data.hour : data.hour).addClass('union' + data.union);
+				$(td[0]).text(data.hour < 10 ? '0' + data.hour : data.hour);
 				$(td[1]).text(unions[data.union]);
 				$(td[2]).text(data.score.toLocaleString());
 
