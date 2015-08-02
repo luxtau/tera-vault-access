@@ -15,14 +15,6 @@ function requestTable() {
 	$.getJSON("https://raw.githubusercontent.com/luxtau/tera-vault-access/master/vault_access.json", renderTable);
 }
 
-function log() { 
-	var s = [];
-	for (var i = 0; i < arguments.length; i++) {
-		s.push(arguments[i].toString());
-	}
-	console.log(s.join(", "));
-}
-
 function renderTable(json) {
 	var servers = {}
 
@@ -34,6 +26,10 @@ function renderTable(json) {
 
 
 	var currentTab = $.cookie('current-tab') || 's1';
+	var infoDate = new Date(json.info.date);
+	var shouldRenderHours = infoDate.getDate() == new Date().getDate();
+
+	$('#content').attr('day', shouldRenderHours ? 'today' : 'tomorrow');
 
 	function renderServerTabs(servers) {
 		var list = $('#servers');
@@ -68,38 +64,33 @@ function renderTable(json) {
 			$(el).text(hours[i+1]);
 		});
 
-		$('#today', tab).text(new Date(json.info.date).toLocaleDateString());
-
+		$('#today', tab).text(infoDate.toLocaleDateString());
 
 		$('table', tab).each(function(i, table) {
-			// console.log('table', i, table);
 
 			var list = $('tbody', table);
 			var tpl = $('tbody > tr:first-child').first().clone().removeClass('text-muted bg-success');
 			list.empty();
 
-			// console.log('template',i, tpl);
-			// console.log('data', i, data[i]);
-
 			$.each(data[i], function(j, data) {
-				// console.log('hour', i, j, data);
 
 				var li = tpl.clone();
 				list.append(li);
 				li.attr('union', data.union);
 
-				// console.log('li', typeof(li), li);
 				var td = li.children();
 
 				$(td[0]).text(data.hour < 10 ? '0' + data.hour : data.hour);
 				$(td[1]).text(unions[data.union]);
 				$(td[2]).text(data.score.toLocaleString());
 
-				var hour = i * 12 + j;
-				if(hour < current_hour)
-					li.addClass('text-muted');
-				else if(hour == current_hour)
-					li.addClass('bg-success');
+				if(shouldRenderHours) {
+					var hour = i * 12 + j;
+					if(hour < current_hour)
+						li.addClass('text-muted');
+					else if(hour == current_hour)
+						li.addClass('bg-success');
+				}
 			});
 
 		});
@@ -122,7 +113,6 @@ function renderTable(json) {
 			if(server.id == currentTab)
 				tab.toggleClass('active');
 
-			// console.log('render server', server.id, server.name, tab);
 			renderServerContent(tab, server, hour);
 		});
 	};

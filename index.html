@@ -9,7 +9,7 @@
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="js/jquery.cookie.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="vault.js"></script>
@@ -37,6 +37,9 @@
     [frame] { outline: 1px solid orange; }
 
     .region { display: inline-block; color: lightgrey; text-align: right; width: 90%; }
+
+    #content[day="tomorrow"] .panel-heading .today    { display: none; }
+
   </style>
 </head>
 <body class="container">
@@ -76,11 +79,11 @@
     
   </div>
 
-  <div id="content" class="bs-example tab-content">
+  <div id="content" class="tab-content">
     <div role="tabpanel" class="tab-pane" id="s2">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Часы доступа сегодня (<span id="today">29.07.2015</span>)</h3>
+          <h3 class="panel-title">Часы доступа <span class="today">сегодня (</span><span id="today">29.07.2015</span><span class="today">)</span></h3>
         </div>
         <div class="panel-body">
 
