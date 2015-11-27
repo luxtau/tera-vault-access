@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Vault Access Hours</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <script type="text/javascript">
+    setTimeout(function() {
+      var lang = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);
+      if(lang == "ru" || lang == "ru-RU")
+        window.location.href = "ru.html";
+      else
+        window.location.href = "na.html";
+    }, 500);
+  </script>
+
+  <style type="text/css">
+  
+  </style>
+</head>
+<body class="container">
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <span class="navbar-brand" >Region:</span>
+      </div>
+
+      <div class="collapse navbar-collapse">
+        <ul id="regions" class="nav navbar-nav" role="tablist">
+          <li role="presentation"><a href="na.html" aria-controls="s1" role="tab" data-toggle="tab">Enmasse (NA)</a></li>
+          <li role="presentation"><a href="ru.html" aria-controls="s2" role="tab" data-toggle="tab">Destiny (RU)</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Region <span class="caret"></span></a>
+            <ul id="regions" class="dropdown-menu">
+              <li><a title="http://tera-online.ru" href="ru.html">RU <span class="region">tera-online.ru</span></a></li>
+              <li><a title="http://tera.enmasse.com"  href="na.html">NA <span class="region">tera.enmasse.com</span></a></li>
+              <li class="disabled"><a title="http://tera.gameforge.com" href="#">EU <span class="region">tera.gameforge.com</span></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    
+  </div>
+
+
+</body>
+</html>
