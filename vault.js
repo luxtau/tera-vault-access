@@ -1,21 +1,20 @@
-/// events
-$(function() {
-	requestTable();
-});
-
-$(document).on('click.set.cookie', '[data-toggle="tab"]', function (e) {
-	e.preventDefault();
-	var target = $(this).attr('aria-controls');
-	$.cookie('current-tab', target);
-	$.cookie('current-lang', 'ru');
-});
-
 /// body
-function requestTable() {
-	$.getJSON("https://raw.githubusercontent.com/luxtau/tera-vault-access/master/vault_access.json", renderTable);
+function requestTable(region) {
+	//$.getJSON(NA, renderTable);
+	var url = "https://raw.githubusercontent.com/luxtau/tera-vault-access/"	+ region;
+	$.getJSON(url + "/vault_access.json", function(data) {
+		renderTable(data, region)
+	});
+
+	$(document).on('click.set-cookie', '[data-toggle="tab"]', function (e) {
+		e.preventDefault();
+		var target = $(this).attr('aria-controls');
+		$.cookie('current-tab', target);
+		$.cookie('current-lang', region);
+	});
 }
 
-function renderTable(json) {
+function renderTable(json, region) {
 	var servers = {}
 
 	// transform servers
@@ -53,7 +52,9 @@ function renderTable(json) {
 	function renderServerContent(tab, server, current_hour) {
 
 		var data = [server.data.slice(0,12), server.data.slice(12,24)];
-		var unions = ['', "Сообщество Торговцев", "Союз Просвещенных", "Железный Орден"]
+		var unions;
+		if(region == "NA") 			unions = ['', "Free Traders", "Enlightened Union", "Iron Order"];
+		else if(region == "RU")	unions = ['', "Сообщество Торговцев", "Союз Просвещенных", "Железный Орден"];
 
 		var hours = [0,0,0,0];
 		$.each(server.data, function(i, h) {
