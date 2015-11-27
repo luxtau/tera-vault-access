@@ -8,7 +8,7 @@
       "Tempest Reach",
       "Lake of Tears",
       "Valley of Titans",
-      "Mount Tyrannas",
+      "Mount Tyrannas"
     ]
   },
   "competition": {
@@ -132,7 +132,7 @@
         "hour": 23,
         "union": 1,
         "score": 628
-      },
+      }
     ],
     "Highwatch": [
       {
@@ -254,7 +254,7 @@
         "hour": 23,
         "union": 1,
         "score": 628
-      },
+      }
     ],
     "Celestial Hills - Roleplay": [
       {
@@ -376,7 +376,7 @@
         "hour": 23,
         "union": 1,
         "score": 628
-      },
+      }
     ],
     "Tempest Reach": [
       {
@@ -498,7 +498,7 @@
         "hour": 23,
         "union": 1,
         "score": 628
-      },
+      }
     ],
     "Lake of Tears": [
       {
@@ -620,7 +620,7 @@
         "hour": 23,
         "union": 3,
         "score": 628
-      },
+      }
     ],
     "Valley of Titans": [
       {
@@ -742,7 +742,7 @@
         "hour": 23,
         "union": 3,
         "score": 628
-      },
+      }
     ],
     "Mount Tyrannas": [
       {
@@ -864,7 +864,7 @@
         "hour": 23,
         "union": 2,
         "score": 628
-      },
-    ],
+      }
+    ]
   }
 }
