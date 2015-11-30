@@ -23,9 +23,9 @@ function renderTable(json, region) {
 		servers[name] = s;
 	});
 
-
 	var currentTab = $.cookie('current-tab') || 's1';
-	var infoDate = new Date(json.info.date);
+	var dt = new Date(json.info.date);
+	var infoDate = new Date(dt.getUTCFullYear(), dt.getUTCMonth(), dt.getUTCDate());
 	var shouldRenderHours = infoDate.getDate() == new Date().getDate();
 
 	$('#content').attr('day', shouldRenderHours ? 'today' : 'tomorrow');
@@ -67,6 +67,10 @@ function renderTable(json, region) {
 
 		$('#today', tab).text(infoDate.toLocaleDateString());
 
+		var startTime = new Date(json.info.start_time);
+		var startHour = startTime.getHours();
+		var pastHours = true;
+
 		$('table', tab).each(function(i, table) {
 
 			var list = $('tbody', table);
@@ -81,16 +85,20 @@ function renderTable(json, region) {
 
 				var td = li.children();
 
-				$(td[0]).text(data.hour < 10 ? '0' + data.hour : data.hour);
+				var hour = data.hour + startHour;
+				if(hour >= 24) hour -= 24;
+
+				$(td[0]).text(hour < 10 ? '0' + hour : hour);
 				$(td[1]).text(unions[data.union]);
 				$(td[2]).text(data.score.toLocaleString());
 
 				if(shouldRenderHours) {
-					var hour = i * 12 + j;
-					if(hour < current_hour)
-						li.addClass('text-muted');
-					else if(hour == current_hour)
+					if(hour == current_hour) {
+						pastHours = false;
 						li.addClass('bg-success');
+					} else if(pastHours) {
+						li.addClass('text-muted');
+					}
 				}
 			});
 
@@ -103,8 +111,7 @@ function renderTable(json, region) {
 		var tpl = $('.tab-pane:first-child', list).clone().removeClass('active');
 		list.empty();
 
-		var hour = new Date().getUTCHours() + 3;	// RU region timezone
-		hour = new Date().getHours();
+		var hour = new Date().getHours();
 
 		$.each(servers, function(name, server) {
 			var tab = tpl.clone();
