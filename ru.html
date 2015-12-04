@@ -8,14 +8,34 @@
   <title>Часы доступа в Сокровищницу</title>
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/jquery.min.js"></script>
   <script src="js/jquery.cookie.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/moment.min.js"></script>
+  <script src="js/bootstrap-datetimepicker.min.js"></script>
   <script src="vault.js"></script>
 
   <script type="text/javascript">
-    $(function() { requestTable('RU'); });
+    $(function() { 
+      requestTable('RU');
+
+      requestHistory('RU', function(dates, history) {
+
+        $('#datetimepicker')
+          .bind("dp.change", function(e) {
+            requestDay('RU', history, e.date.format('YYYY-MM-DD'));
+          })
+          .data("DateTimePicker").enabledDates(dates).date(history.latest);
+      });
+
+      $('#datetimepicker').datetimepicker({
+          format: 'YYYY-MM-DD',
+          showTodayButton: false
+          });
+
+    });
   </script>
 
   <script>
@@ -30,7 +50,6 @@
    (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter31723686 = new Ya.Metrika({ id:31723686, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");
   </script>
   <noscript><div><img src="https://mc.yandex.ru/watch/31723686" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- -->
 
   <style type="text/css">
   
@@ -45,6 +64,9 @@
     .region { display: inline-block; color: lightgrey; text-align: right; width: 90%; }
 
     #content[day="tomorrow"] .panel-heading .today    { display: none; }
+
+    #datetimepicker .datepicker-days tbody .day:not(.disabled) { background-color: #dff0d8; }
+    #datetimepicker .datepicker-days tbody .day.active         { color: black; }
 
   </style>
 </head>
@@ -77,6 +99,16 @@
             </ul>
           </li>
         </ul>
+
+        <form class="navbar-form navbar-right">
+          <div class='input-group date' id='datetimepicker'>
+            <input type='text' class="form-control" />
+            <span class="input-group-addon">
+              <span class="glyphicon glyphicon-calendar"></span>
+            </span>
+          </div>
+        </form>
+
       </div>
     </div>
   </nav>
@@ -86,7 +118,7 @@
   </div>
 
   <div id="content" class="tab-content">
-    <div role="tabpanel" class="tab-pane" id="s2">
+    <div role="tabpanel" class="tab-pane active" id="tab-template">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title">Часы доступа <span class="today">сегодня (</span><span id="today">29.07.2015</span><span class="today">)</span></h3>

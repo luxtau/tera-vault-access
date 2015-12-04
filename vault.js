@@ -1,9 +1,10 @@
 /// body
+var GITHUB_URL = "https://raw.githubusercontent.com/luxtau/tera-vault-access/";
+
 function requestTable(region) {
-	//$.getJSON(NA, renderTable);
-	var url = "https://raw.githubusercontent.com/luxtau/tera-vault-access/"	+ region;
+	var url = GITHUB_URL + region;
 	$.getJSON(url + "/vault_access.json", function(data) {
-		renderTable(data, region)
+		renderTable(data, region, null)
 	});
 
 	$(document).on('click.set-cookie', '[data-toggle="tab"]', function (e) {
@@ -14,7 +15,24 @@ function requestTable(region) {
 	});
 }
 
-function renderTable(json, region) {
+function requestHistory(region, callback) {
+	var url = GITHUB_URL + region;
+	$.getJSON(url + "/history.json", function(json) {
+		var history = json.dates;
+		var days = Object.keys(history).sort();
+		days.pop();
+		callback(days, history);
+	});
+}
+
+function requestDay(region, history, date) {
+	var commit = history[date];
+	if(commit) $.getJSON(GITHUB_URL + commit + "/vault_access.json", function(data) {
+		renderTable(data, region, date);
+	});
+}
+
+function renderTable(json, region, date) {
 	var servers = {}
 
 	// transform servers
@@ -23,10 +41,14 @@ function renderTable(json, region) {
 		servers[name] = s;
 	});
 
-	var currentTab = $.cookie('current-tab') || 's1';
 	var dt = new Date(json.info.date);
 	var infoDate = new Date(dt.getUTCFullYear(), dt.getUTCMonth(), dt.getUTCDate());
 	var shouldRenderHours = infoDate.getDate() == new Date().getDate();
+	var shouldRenderTabs = date == null;
+
+	var currentTab = $.cookie('current-tab') || 's1';
+	// if(date)
+	// 	currentTab = $('#servers > li.active a').attr('aria-controls');
 
 	$('#content').attr('day', shouldRenderHours ? 'today' : 'tomorrow');
 
@@ -125,6 +147,7 @@ function renderTable(json, region) {
 		});
 	};
 
-	renderServerTabs(servers);
+	if(shouldRenderTabs)
+		renderServerTabs(servers);
 	renderContent(servers);
 }
