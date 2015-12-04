@@ -16,8 +16,8 @@ function requestTable(region) {
 }
 
 function requestHistory(region, callback) {
-	var url = GITHUB_URL + region;
-	$.getJSON(url + "/history.json", function(json) {
+	var url = GITHUB_URL + "history/" + region + ".json";
+	$.getJSON(url, function(json) {
 		var history = json.dates;
 		var days = Object.keys(history).sort();
 		days.pop();
