@@ -1,8 +1,8 @@
 {
   "info": {
-    "date": "2016-01-04",
-    "start_time": "2016-01-04T00:00:00Z",
-    "end_time": "2016-01-04T20:00:01Z",
+    "date": "2016-01-05",
+    "start_time": "2016-01-05T00:00:00Z",
+    "end_time": "2016-01-05T20:00:01Z",
     "servers": [
       "Ascension Valley",
       "Celestial Hills - Roleplay",
@@ -37,17 +37,17 @@
       },
       {
         "hour": 4,
-        "union": 1,
+        "union": 3,
         "score": 47448772
       },
       {
         "hour": 5,
-        "union": 3,
+        "union": 1,
         "score": 48497364
       },
       {
         "hour": 6,
-        "union": 3,
+        "union": 2,
         "score": 49545956
       },
       {
@@ -57,17 +57,17 @@
       },
       {
         "hour": 8,
-        "union": 1,
+        "union": 2,
         "score": 51643140
       },
       {
         "hour": 9,
-        "union": 1,
+        "union": 3,
         "score": 52691732
       },
       {
         "hour": 10,
-        "union": 2,
+        "union": 3,
         "score": 53740324
       },
       {
@@ -82,7 +82,7 @@
       },
       {
         "hour": 13,
-        "union": 3,
+        "union": 2,
         "score": 56886100
       },
       {
@@ -97,22 +97,22 @@
       },
       {
         "hour": 16,
-        "union": 2,
+        "union": 1,
         "score": 60031876
       },
       {
         "hour": 17,
-        "union": 2,
+        "union": 3,
         "score": 61080468
       },
       {
         "hour": 18,
-        "union": 2,
+        "union": 3,
         "score": 62129060
       },
       {
         "hour": 19,
-        "union": 3,
+        "union": 2,
         "score": 63177652
       },
       {
@@ -139,7 +139,7 @@
     "Celestial Hills - Roleplay": [
       {
         "hour": 0,
-        "union": 2,
+        "union": 1,
         "score": 43254404
       },
       {
@@ -149,22 +149,22 @@
       },
       {
         "hour": 2,
-        "union": 3,
+        "union": 1,
         "score": 45351588
       },
       {
         "hour": 3,
-        "union": 1,
+        "union": 3,
         "score": 46400180
       },
       {
         "hour": 4,
-        "union": 2,
+        "union": 3,
         "score": 47448772
       },
       {
         "hour": 5,
-        "union": 2,
+        "union": 3,
         "score": 48497364
       },
       {
@@ -174,17 +174,17 @@
       },
       {
         "hour": 7,
-        "union": 2,
+        "union": 3,
         "score": 50594548
       },
       {
         "hour": 8,
-        "union": 2,
+        "union": 3,
         "score": 51643140
       },
       {
         "hour": 9,
-        "union": 3,
+        "union": 1,
         "score": 52691732
       },
       {
@@ -194,27 +194,27 @@
       },
       {
         "hour": 11,
-        "union": 3,
+        "union": 1,
         "score": 54788916
       },
       {
         "hour": 12,
-        "union": 2,
+        "union": 1,
         "score": 55837508
       },
       {
         "hour": 13,
-        "union": 3,
+        "union": 1,
         "score": 56886100
       },
       {
         "hour": 14,
-        "union": 3,
+        "union": 1,
         "score": 57934692
       },
       {
         "hour": 15,
-        "union": 3,
+        "union": 2,
         "score": 58983284
       },
       {
@@ -224,7 +224,7 @@
       },
       {
         "hour": 17,
-        "union": 3,
+        "union": 1,
         "score": 61080468
       },
       {
@@ -234,27 +234,27 @@
       },
       {
         "hour": 19,
-        "union": 3,
+        "union": 2,
         "score": 63177652
       },
       {
         "hour": 20,
-        "union": 1,
+        "union": 2,
         "score": 64226244
       },
       {
         "hour": 21,
-        "union": 3,
+        "union": 1,
         "score": 65274836
       },
       {
         "hour": 22,
-        "union": 1,
+        "union": 2,
         "score": 66323428
       },
       {
         "hour": 23,
-        "union": 2,
+        "union": 3,
         "score": 1012
       }
     ],
@@ -271,12 +271,12 @@
       },
       {
         "hour": 2,
-        "union": 1,
+        "union": 2,
         "score": 45351588
       },
       {
         "hour": 3,
-        "union": 1,
+        "union": 3,
         "score": 46400180
       },
       {
@@ -286,7 +286,7 @@
       },
       {
         "hour": 5,
-        "union": 1,
+        "union": 2,
         "score": 48497364
       },
       {
@@ -301,7 +301,7 @@
       },
       {
         "hour": 8,
-        "union": 2,
+        "union": 3,
         "score": 51643140
       },
       {
@@ -311,57 +311,57 @@
       },
       {
         "hour": 10,
-        "union": 3,
+        "union": 1,
         "score": 53740324
       },
       {
         "hour": 11,
-        "union": 3,
+        "union": 1,
         "score": 54788916
       },
       {
         "hour": 12,
-        "union": 3,
+        "union": 2,
         "score": 55837508
       },
       {
         "hour": 13,
-        "union": 3,
+        "union": 1,
         "score": 56886100
       },
       {
         "hour": 14,
-        "union": 1,
+        "union": 2,
         "score": 57934692
       },
       {
         "hour": 15,
-        "union": 3,
+        "union": 1,
         "score": 58983284
       },
       {
         "hour": 16,
-        "union": 1,
+        "union": 2,
         "score": 60031876
       },
       {
         "hour": 17,
-        "union": 1,
+        "union": 3,
         "score": 61080468
       },
       {
         "hour": 18,
-        "union": 2,
+        "union": 1,
         "score": 62129060
       },
       {
         "hour": 19,
-        "union": 3,
+        "union": 2,
         "score": 63177652
       },
       {
         "hour": 20,
-        "union": 1,
+        "union": 3,
         "score": 64226244
       },
       {
@@ -393,7 +393,7 @@
       },
       {
         "hour": 2,
-        "union": 2,
+        "union": 1,
         "score": 45351588
       },
       {
@@ -403,37 +403,37 @@
       },
       {
         "hour": 4,
-        "union": 1,
+        "union": 2,
         "score": 47448772
       },
       {
         "hour": 5,
-        "union": 2,
+        "union": 1,
         "score": 48497364
       },
       {
         "hour": 6,
-        "union": 2,
+        "union": 3,
         "score": 49545956
       },
       {
         "hour": 7,
-        "union": 1,
+        "union": 3,
         "score": 50594548
       },
       {
         "hour": 8,
-        "union": 2,
+        "union": 3,
         "score": 51643140
       },
       {
         "hour": 9,
-        "union": 1,
+        "union": 3,
         "score": 52691732
       },
       {
         "hour": 10,
-        "union": 3,
+        "union": 1,
         "score": 53740324
       },
       {
@@ -443,12 +443,12 @@
       },
       {
         "hour": 12,
-        "union": 3,
+        "union": 2,
         "score": 55837508
       },
       {
         "hour": 13,
-        "union": 3,
+        "union": 1,
         "score": 56886100
       },
       {
@@ -463,12 +463,12 @@
       },
       {
         "hour": 16,
-        "union": 2,
+        "union": 1,
         "score": 60031876
       },
       {
         "hour": 17,
-        "union": 1,
+        "union": 3,
         "score": 61080468
       },
       {
@@ -478,27 +478,27 @@
       },
       {
         "hour": 19,
-        "union": 1,
+        "union": 2,
         "score": 63177652
       },
       {
         "hour": 20,
-        "union": 2,
+        "union": 3,
         "score": 64226244
       },
       {
         "hour": 21,
-        "union": 1,
+        "union": 3,
         "score": 65274836
       },
       {
         "hour": 22,
-        "union": 2,
+        "union": 1,
         "score": 66323428
       },
       {
         "hour": 23,
-        "union": 3,
+        "union": 2,
         "score": 1012
       }
     ],
@@ -510,17 +510,17 @@
       },
       {
         "hour": 1,
-        "union": 2,
+        "union": 3,
         "score": 44302996
       },
       {
         "hour": 2,
-        "union": 3,
+        "union": 1,
         "score": 45351588
       },
       {
         "hour": 3,
-        "union": 3,
+        "union": 1,
         "score": 46400180
       },
       {
@@ -535,17 +535,17 @@
       },
       {
         "hour": 6,
-        "union": 1,
+        "union": 2,
         "score": 49545956
       },
       {
         "hour": 7,
-        "union": 3,
+        "union": 2,
         "score": 50594548
       },
       {
         "hour": 8,
-        "union": 3,
+        "union": 1,
         "score": 51643140
       },
       {
@@ -555,7 +555,7 @@
       },
       {
         "hour": 10,
-        "union": 1,
+        "union": 2,
         "score": 53740324
       },
       {
@@ -570,22 +570,22 @@
       },
       {
         "hour": 13,
-        "union": 1,
+        "union": 2,
         "score": 56886100
       },
       {
         "hour": 14,
-        "union": 2,
+        "union": 1,
         "score": 57934692
       },
       {
         "hour": 15,
-        "union": 2,
+        "union": 1,
         "score": 58983284
       },
       {
         "hour": 16,
-        "union": 2,
+        "union": 1,
         "score": 60031876
       },
       {
@@ -605,22 +605,22 @@
       },
       {
         "hour": 20,
-        "union": 3,
+        "union": 2,
         "score": 64226244
       },
       {
         "hour": 21,
-        "union": 3,
+        "union": 1,
         "score": 65274836
       },
       {
         "hour": 22,
-        "union": 1,
+        "union": 2,
         "score": 66323428
       },
       {
         "hour": 23,
-        "union": 2,
+        "union": 3,
         "score": 1012
       }
     ],
@@ -637,7 +637,7 @@
       },
       {
         "hour": 2,
-        "union": 1,
+        "union": 2,
         "score": 45351588
       },
       {
@@ -652,17 +652,17 @@
       },
       {
         "hour": 5,
-        "union": 2,
+        "union": 1,
         "score": 48497364
       },
       {
         "hour": 6,
-        "union": 1,
+        "union": 3,
         "score": 49545956
       },
       {
         "hour": 7,
-        "union": 3,
+        "union": 2,
         "score": 50594548
       },
       {
@@ -672,12 +672,12 @@
       },
       {
         "hour": 9,
-        "union": 3,
+        "union": 2,
         "score": 52691732
       },
       {
         "hour": 10,
-        "union": 2,
+        "union": 1,
         "score": 53740324
       },
       {
@@ -687,27 +687,27 @@
       },
       {
         "hour": 12,
-        "union": 1,
+        "union": 2,
         "score": 55837508
       },
       {
         "hour": 13,
-        "union": 2,
+        "union": 3,
         "score": 56886100
       },
       {
         "hour": 14,
-        "union": 1,
+        "union": 3,
         "score": 57934692
       },
       {
         "hour": 15,
-        "union": 3,
+        "union": 1,
         "score": 58983284
       },
       {
         "hour": 16,
-        "union": 2,
+        "union": 1,
         "score": 60031876
       },
       {
@@ -717,7 +717,7 @@
       },
       {
         "hour": 18,
-        "union": 3,
+        "union": 2,
         "score": 62129060
       },
       {
@@ -727,34 +727,34 @@
       },
       {
         "hour": 20,
-        "union": 1,
+        "union": 3,
         "score": 64226244
       },
       {
         "hour": 21,
-        "union": 1,
+        "union": 2,
         "score": 65274836
       },
       {
         "hour": 22,
-        "union": 2,
+        "union": 3,
         "score": 66323428
       },
       {
         "hour": 23,
-        "union": 3,
+        "union": 1,
         "score": 1012
       }
     ],
     "Mount Tyrannas": [
       {
         "hour": 0,
-        "union": 2,
+        "union": 1,
         "score": 43254404
       },
       {
         "hour": 1,
-        "union": 1,
+        "union": 3,
         "score": 44302996
       },
       {
@@ -764,17 +764,17 @@
       },
       {
         "hour": 3,
-        "union": 3,
+        "union": 1,
         "score": 46400180
       },
       {
         "hour": 4,
-        "union": 3,
+        "union": 2,
         "score": 47448772
       },
       {
         "hour": 5,
-        "union": 3,
+        "union": 1,
         "score": 48497364
       },
       {
@@ -784,22 +784,22 @@
       },
       {
         "hour": 7,
-        "union": 3,
+        "union": 2,
         "score": 50594548
       },
       {
         "hour": 8,
-        "union": 1,
+        "union": 2,
         "score": 51643140
       },
       {
         "hour": 9,
-        "union": 3,
+        "union": 1,
         "score": 52691732
       },
       {
         "hour": 10,
-        "union": 3,
+        "union": 2,
         "score": 53740324
       },
       {
@@ -809,7 +809,7 @@
       },
       {
         "hour": 12,
-        "union": 2,
+        "union": 3,
         "score": 55837508
       },
       {
@@ -819,17 +819,17 @@
       },
       {
         "hour": 14,
-        "union": 1,
+        "union": 2,
         "score": 57934692
       },
       {
         "hour": 15,
-        "union": 2,
+        "union": 3,
         "score": 58983284
       },
       {
         "hour": 16,
-        "union": 1,
+        "union": 3,
         "score": 60031876
       },
       {
@@ -839,12 +839,12 @@
       },
       {
         "hour": 18,
-        "union": 2,
+        "union": 1,
         "score": 62129060
       },
       {
         "hour": 19,
-        "union": 3,
+        "union": 2,
         "score": 63177652
       },
       {
@@ -854,17 +854,17 @@
       },
       {
         "hour": 21,
-        "union": 3,
+        "union": 2,
         "score": 65274836
       },
       {
         "hour": 22,
-        "union": 1,
+        "union": 3,
         "score": 66323428
       },
       {
         "hour": 23,
-        "union": 2,
+        "union": 1,
         "score": 1012
       }
     ]
