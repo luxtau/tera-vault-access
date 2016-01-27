@@ -1,8 +1,8 @@
 {
   "info": {
-    "date": "2016-01-26",
-    "start_time": "2016-01-25T21:00:00Z",
-    "end_time": "2016-01-26T17:00:01Z",
+    "date": "2016-01-27",
+    "start_time": "2016-01-26T21:00:00Z",
+    "end_time": "2016-01-27T17:00:00Z",
     "servers": [
       "Арун",
       "Кайатор",
@@ -18,854 +18,854 @@
       {
         "hour": 0,
         "union": 2,
-        "score": 43254404
+        "score": 18088196
       },
       {
         "hour": 1,
         "union": 2,
-        "score": 44302996
+        "score": 19136788
       },
       {
         "hour": 2,
-        "union": 1,
-        "score": 45351588
+        "union": 2,
+        "score": 20185380
       },
       {
         "hour": 3,
         "union": 2,
-        "score": 46400180
+        "score": 21233972
       },
       {
         "hour": 4,
         "union": 1,
-        "score": 47448772
+        "score": 22282564
       },
       {
         "hour": 5,
-        "union": 3,
-        "score": 48497364
+        "union": 2,
+        "score": 23331156
       },
       {
         "hour": 6,
         "union": 3,
-        "score": 49545956
+        "score": 24379748
       },
       {
         "hour": 7,
-        "union": 3,
-        "score": 50594548
+        "union": 2,
+        "score": 25428340
       },
       {
         "hour": 8,
-        "union": 2,
-        "score": 51643140
+        "union": 1,
+        "score": 26476932
       },
       {
         "hour": 9,
-        "union": 3,
-        "score": 52691732
+        "union": 2,
+        "score": 27525524
       },
       {
         "hour": 10,
-        "union": 2,
-        "score": 53740324
+        "union": 3,
+        "score": 28574116
       },
       {
         "hour": 11,
         "union": 2,
-        "score": 54788916
+        "score": 29622708
       },
       {
         "hour": 12,
         "union": 3,
-        "score": 55837508
+        "score": 30671300
       },
       {
         "hour": 13,
-        "union": 3,
-        "score": 56886100
+        "union": 2,
+        "score": 31719892
       },
       {
         "hour": 14,
-        "union": 2,
-        "score": 57934692
+        "union": 3,
+        "score": 32768484
       },
       {
         "hour": 15,
-        "union": 2,
-        "score": 58983284
+        "union": 1,
+        "score": 33817076
       },
       {
         "hour": 16,
-        "union": 3,
-        "score": 60031876
+        "union": 2,
+        "score": 34865668
       },
       {
         "hour": 17,
-        "union": 3,
-        "score": 61080468
+        "union": 2,
+        "score": 35914260
       },
       {
         "hour": 18,
-        "union": 3,
-        "score": 62129060
+        "union": 1,
+        "score": 36962852
       },
       {
         "hour": 19,
         "union": 2,
-        "score": 63177652
+        "score": 38011444
       },
       {
         "hour": 20,
-        "union": 3,
-        "score": 64226244
+        "union": 2,
+        "score": 39060036
       },
       {
         "hour": 21,
         "union": 2,
-        "score": 65274836
+        "score": 40108628
       },
       {
         "hour": 22,
         "union": 3,
-        "score": 66323428
+        "score": 41157220
       },
       {
         "hour": 23,
         "union": 1,
-        "score": 1012
+        "score": 628
       }
     ],
     "Кайатор": [
       {
         "hour": 0,
-        "union": 2,
-        "score": 43254404
+        "union": 1,
+        "score": 18088196
       },
       {
         "hour": 1,
-        "union": 1,
-        "score": 44302996
+        "union": 2,
+        "score": 19136788
       },
       {
         "hour": 2,
-        "union": 1,
-        "score": 45351588
+        "union": 3,
+        "score": 20185380
       },
       {
         "hour": 3,
-        "union": 2,
-        "score": 46400180
+        "union": 3,
+        "score": 21233972
       },
       {
         "hour": 4,
-        "union": 2,
-        "score": 47448772
+        "union": 3,
+        "score": 22282564
       },
       {
         "hour": 5,
-        "union": 2,
-        "score": 48497364
+        "union": 1,
+        "score": 23331156
       },
       {
         "hour": 6,
         "union": 2,
-        "score": 49545956
+        "score": 24379748
       },
       {
         "hour": 7,
-        "union": 2,
-        "score": 50594548
+        "union": 3,
+        "score": 25428340
       },
       {
         "hour": 8,
         "union": 1,
-        "score": 51643140
+        "score": 26476932
       },
       {
         "hour": 9,
-        "union": 2,
-        "score": 52691732
+        "union": 3,
+        "score": 27525524
       },
       {
         "hour": 10,
-        "union": 2,
-        "score": 53740324
+        "union": 3,
+        "score": 28574116
       },
       {
         "hour": 11,
         "union": 1,
-        "score": 54788916
+        "score": 29622708
       },
       {
         "hour": 12,
         "union": 2,
-        "score": 55837508
+        "score": 30671300
       },
       {
         "hour": 13,
         "union": 1,
-        "score": 56886100
+        "score": 31719892
       },
       {
         "hour": 14,
         "union": 2,
-        "score": 57934692
+        "score": 32768484
       },
       {
         "hour": 15,
-        "union": 3,
-        "score": 58983284
+        "union": 2,
+        "score": 33817076
       },
       {
         "hour": 16,
-        "union": 1,
-        "score": 60031876
+        "union": 3,
+        "score": 34865668
       },
       {
         "hour": 17,
         "union": 1,
-        "score": 61080468
+        "score": 35914260
       },
       {
         "hour": 18,
-        "union": 3,
-        "score": 62129060
+        "union": 2,
+        "score": 36962852
       },
       {
         "hour": 19,
         "union": 3,
-        "score": 63177652
+        "score": 38011444
       },
       {
         "hour": 20,
-        "union": 1,
-        "score": 64226244
+        "union": 3,
+        "score": 39060036
       },
       {
         "hour": 21,
-        "union": 1,
-        "score": 65274836
+        "union": 2,
+        "score": 40108628
       },
       {
         "hour": 22,
-        "union": 2,
-        "score": 66323428
+        "union": 3,
+        "score": 41157220
       },
       {
         "hour": 23,
-        "union": 3,
-        "score": 1012
+        "union": 1,
+        "score": 628
       }
     ],
     "Арборея": [
       {
         "hour": 0,
-        "union": 1,
-        "score": 154536230
+        "union": 2,
+        "score": 127928208
       },
       {
         "hour": 1,
         "union": 3,
-        "score": 155584822
+        "score": 128976800
       },
       {
         "hour": 2,
         "union": 1,
-        "score": 156633414
+        "score": 130025392
       },
       {
         "hour": 3,
-        "union": 1,
-        "score": 157682006
+        "union": 3,
+        "score": 131073984
       },
       {
         "hour": 4,
         "union": 2,
-        "score": 158730598
+        "score": 132122576
       },
       {
         "hour": 5,
-        "union": 2,
-        "score": 159779190
+        "union": 1,
+        "score": 133171168
       },
       {
         "hour": 6,
-        "union": 3,
-        "score": 160827782
+        "union": 2,
+        "score": 134219760
       },
       {
         "hour": 7,
         "union": 2,
-        "score": 161876374
+        "score": 135268352
       },
       {
         "hour": 8,
         "union": 1,
-        "score": 162924966
+        "score": 136316944
       },
       {
         "hour": 9,
         "union": 2,
-        "score": 163973558
+        "score": 137365536
       },
       {
         "hour": 10,
-        "union": 1,
-        "score": 165022150
+        "union": 3,
+        "score": 138414128
       },
       {
         "hour": 11,
-        "union": 2,
-        "score": 166070742
+        "union": 3,
+        "score": 139462720
       },
       {
         "hour": 12,
         "union": 2,
-        "score": 167119334
+        "score": 140511312
       },
       {
         "hour": 13,
         "union": 3,
-        "score": 168167926
+        "score": 141559904
       },
       {
         "hour": 14,
         "union": 1,
-        "score": 169216518
+        "score": 142608496
       },
       {
         "hour": 15,
-        "union": 3,
-        "score": 170265110
+        "union": 2,
+        "score": 143657088
       },
       {
         "hour": 16,
-        "union": 2,
-        "score": 171313702
+        "union": 3,
+        "score": 144705680
       },
       {
         "hour": 17,
         "union": 3,
-        "score": 172362294
+        "score": 145754272
       },
       {
         "hour": 18,
-        "union": 1,
-        "score": 173410886
+        "union": 2,
+        "score": 146802864
       },
       {
         "hour": 19,
         "union": 3,
-        "score": 174459478
+        "score": 147851456
       },
       {
         "hour": 20,
         "union": 3,
-        "score": 175508070
+        "score": 148900048
       },
       {
         "hour": 21,
-        "union": 2,
-        "score": 176556662
+        "union": 3,
+        "score": 149948640
       },
       {
         "hour": 22,
-        "union": 3,
-        "score": 177605254
+        "union": 1,
+        "score": 150997232
       },
       {
         "hour": 23,
-        "union": 1,
-        "score": 2710
+        "union": 2,
+        "score": 2304
       }
     ],
     "Лоркада": [
       {
         "hour": 0,
-        "union": 3,
-        "score": 43254404
+        "union": 1,
+        "score": 18088196
       },
       {
         "hour": 1,
-        "union": 1,
-        "score": 44302996
+        "union": 2,
+        "score": 19136788
       },
       {
         "hour": 2,
         "union": 2,
-        "score": 45351588
+        "score": 20185380
       },
       {
         "hour": 3,
         "union": 2,
-        "score": 46400180
+        "score": 21233972
       },
       {
         "hour": 4,
         "union": 2,
-        "score": 47448772
+        "score": 22282564
       },
       {
         "hour": 5,
-        "union": 3,
-        "score": 48497364
+        "union": 2,
+        "score": 23331156
       },
       {
         "hour": 6,
-        "union": 2,
-        "score": 49545956
+        "union": 1,
+        "score": 24379748
       },
       {
         "hour": 7,
         "union": 2,
-        "score": 50594548
+        "score": 25428340
       },
       {
         "hour": 8,
-        "union": 2,
-        "score": 51643140
+        "union": 1,
+        "score": 26476932
       },
       {
         "hour": 9,
-        "union": 2,
-        "score": 52691732
+        "union": 3,
+        "score": 27525524
       },
       {
         "hour": 10,
-        "union": 3,
-        "score": 53740324
+        "union": 2,
+        "score": 28574116
       },
       {
         "hour": 11,
         "union": 2,
-        "score": 54788916
+        "score": 29622708
       },
       {
         "hour": 12,
-        "union": 2,
-        "score": 55837508
+        "union": 1,
+        "score": 30671300
       },
       {
         "hour": 13,
-        "union": 3,
-        "score": 56886100
+        "union": 2,
+        "score": 31719892
       },
       {
         "hour": 14,
         "union": 2,
-        "score": 57934692
+        "score": 32768484
       },
       {
         "hour": 15,
-        "union": 2,
-        "score": 58983284
+        "union": 3,
+        "score": 33817076
       },
       {
         "hour": 16,
         "union": 1,
-        "score": 60031876
+        "score": 34865668
       },
       {
         "hour": 17,
         "union": 1,
-        "score": 61080468
+        "score": 35914260
       },
       {
         "hour": 18,
         "union": 2,
-        "score": 62129060
+        "score": 36962852
       },
       {
         "hour": 19,
-        "union": 3,
-        "score": 63177652
+        "union": 1,
+        "score": 38011444
       },
       {
         "hour": 20,
-        "union": 2,
-        "score": 64226244
+        "union": 3,
+        "score": 39060036
       },
       {
         "hour": 21,
-        "union": 3,
-        "score": 65274836
+        "union": 2,
+        "score": 40108628
       },
       {
         "hour": 22,
-        "union": 1,
-        "score": 66323428
+        "union": 3,
+        "score": 41157220
       },
       {
         "hour": 23,
-        "union": 2,
-        "score": 1012
+        "union": 1,
+        "score": 628
       }
     ],
     "Балдера": [
       {
         "hour": 0,
         "union": 2,
-        "score": 43254404
+        "score": 18088196
       },
       {
         "hour": 1,
         "union": 2,
-        "score": 44302996
+        "score": 19136788
       },
       {
         "hour": 2,
-        "union": 3,
-        "score": 45351588
+        "union": 2,
+        "score": 20185380
       },
       {
         "hour": 3,
-        "union": 2,
-        "score": 46400180
+        "union": 3,
+        "score": 21233972
       },
       {
         "hour": 4,
-        "union": 1,
-        "score": 47448772
+        "union": 3,
+        "score": 22282564
       },
       {
         "hour": 5,
-        "union": 2,
-        "score": 48497364
+        "union": 1,
+        "score": 23331156
       },
       {
         "hour": 6,
         "union": 2,
-        "score": 49545956
+        "score": 24379748
       },
       {
         "hour": 7,
-        "union": 1,
-        "score": 50594548
+        "union": 2,
+        "score": 25428340
       },
       {
         "hour": 8,
-        "union": 3,
-        "score": 51643140
+        "union": 1,
+        "score": 26476932
       },
       {
         "hour": 9,
-        "union": 1,
-        "score": 52691732
+        "union": 3,
+        "score": 27525524
       },
       {
         "hour": 10,
-        "union": 2,
-        "score": 53740324
+        "union": 1,
+        "score": 28574116
       },
       {
         "hour": 11,
-        "union": 2,
-        "score": 54788916
+        "union": 1,
+        "score": 29622708
       },
       {
         "hour": 12,
-        "union": 2,
-        "score": 55837508
+        "union": 3,
+        "score": 30671300
       },
       {
         "hour": 13,
-        "union": 3,
-        "score": 56886100
+        "union": 1,
+        "score": 31719892
       },
       {
         "hour": 14,
         "union": 1,
-        "score": 57934692
+        "score": 32768484
       },
       {
         "hour": 15,
-        "union": 1,
-        "score": 58983284
+        "union": 2,
+        "score": 33817076
       },
       {
         "hour": 16,
         "union": 3,
-        "score": 60031876
+        "score": 34865668
       },
       {
         "hour": 17,
         "union": 2,
-        "score": 61080468
+        "score": 35914260
       },
       {
         "hour": 18,
-        "union": 2,
-        "score": 62129060
+        "union": 3,
+        "score": 36962852
       },
       {
         "hour": 19,
-        "union": 1,
-        "score": 63177652
+        "union": 3,
+        "score": 38011444
       },
       {
         "hour": 20,
-        "union": 3,
-        "score": 64226244
+        "union": 2,
+        "score": 39060036
       },
       {
         "hour": 21,
-        "union": 3,
-        "score": 65274836
+        "union": 2,
+        "score": 40108628
       },
       {
         "hour": 22,
-        "union": 1,
-        "score": 66323428
+        "union": 3,
+        "score": 41157220
       },
       {
         "hour": 23,
-        "union": 2,
-        "score": 1012
+        "union": 1,
+        "score": 628
       }
     ],
     "Вестония": [
       {
         "hour": 0,
-        "union": 3,
-        "score": 43254404
+        "union": 2,
+        "score": 18088196
       },
       {
         "hour": 1,
         "union": 1,
-        "score": 44302996
+        "score": 19136788
       },
       {
         "hour": 2,
-        "union": 2,
-        "score": 45351588
+        "union": 1,
+        "score": 20185380
       },
       {
         "hour": 3,
-        "union": 2,
-        "score": 46400180
+        "union": 1,
+        "score": 21233972
       },
       {
         "hour": 4,
-        "union": 1,
-        "score": 47448772
+        "union": 3,
+        "score": 22282564
       },
       {
         "hour": 5,
-        "union": 3,
-        "score": 48497364
+        "union": 1,
+        "score": 23331156
       },
       {
         "hour": 6,
         "union": 3,
-        "score": 49545956
+        "score": 24379748
       },
       {
         "hour": 7,
         "union": 1,
-        "score": 50594548
+        "score": 25428340
       },
       {
         "hour": 8,
-        "union": 2,
-        "score": 51643140
+        "union": 3,
+        "score": 26476932
       },
       {
         "hour": 9,
-        "union": 1,
-        "score": 52691732
+        "union": 2,
+        "score": 27525524
       },
       {
         "hour": 10,
-        "union": 2,
-        "score": 53740324
+        "union": 1,
+        "score": 28574116
       },
       {
         "hour": 11,
-        "union": 1,
-        "score": 54788916
+        "union": 3,
+        "score": 29622708
       },
       {
         "hour": 12,
         "union": 1,
-        "score": 55837508
+        "score": 30671300
       },
       {
         "hour": 13,
-        "union": 3,
-        "score": 56886100
+        "union": 2,
+        "score": 31719892
       },
       {
         "hour": 14,
         "union": 1,
-        "score": 57934692
+        "score": 32768484
       },
       {
         "hour": 15,
         "union": 2,
-        "score": 58983284
+        "score": 33817076
       },
       {
         "hour": 16,
         "union": 1,
-        "score": 60031876
+        "score": 34865668
       },
       {
         "hour": 17,
         "union": 1,
-        "score": 61080468
+        "score": 35914260
       },
       {
         "hour": 18,
-        "union": 3,
-        "score": 62129060
+        "union": 1,
+        "score": 36962852
       },
       {
         "hour": 19,
-        "union": 1,
-        "score": 63177652
+        "union": 2,
+        "score": 38011444
       },
       {
         "hour": 20,
         "union": 2,
-        "score": 64226244
+        "score": 39060036
       },
       {
         "hour": 21,
-        "union": 2,
-        "score": 65274836
+        "union": 1,
+        "score": 40108628
       },
       {
         "hour": 22,
-        "union": 3,
-        "score": 66323428
+        "union": 2,
+        "score": 41157220
       },
       {
         "hour": 23,
-        "union": 1,
-        "score": 1012
+        "union": 3,
+        "score": 628
       }
     ],
     "Эссения": [
       {
         "hour": 0,
-        "union": 1,
-        "score": 154798378
+        "union": 3,
+        "score": 126617468
       },
       {
         "hour": 1,
-        "union": 3,
-        "score": 155846970
+        "union": 1,
+        "score": 127666060
       },
       {
         "hour": 2,
-        "union": 2,
-        "score": 156895562
+        "union": 1,
+        "score": 128714652
       },
       {
         "hour": 3,
         "union": 3,
-        "score": 157944154
+        "score": 129763244
       },
       {
         "hour": 4,
         "union": 2,
-        "score": 158992746
+        "score": 130811836
       },
       {
         "hour": 5,
-        "union": 1,
-        "score": 160041338
+        "union": 3,
+        "score": 131860428
       },
       {
         "hour": 6,
         "union": 3,
-        "score": 161089930
+        "score": 132909020
       },
       {
         "hour": 7,
         "union": 3,
-        "score": 162138522
+        "score": 133957612
       },
       {
         "hour": 8,
-        "union": 1,
-        "score": 163187114
+        "union": 2,
+        "score": 135006204
       },
       {
         "hour": 9,
         "union": 3,
-        "score": 164235706
+        "score": 136054796
       },
       {
         "hour": 10,
-        "union": 2,
-        "score": 165284298
+        "union": 3,
+        "score": 137103388
       },
       {
         "hour": 11,
-        "union": 1,
-        "score": 166332890
+        "union": 2,
+        "score": 138151980
       },
       {
         "hour": 12,
         "union": 1,
-        "score": 167381482
+        "score": 139200572
       },
       {
         "hour": 13,
-        "union": 1,
-        "score": 168430074
+        "union": 3,
+        "score": 140249164
       },
       {
         "hour": 14,
-        "union": 3,
-        "score": 169478666
+        "union": 1,
+        "score": 141297756
       },
       {
         "hour": 15,
         "union": 3,
-        "score": 170527258
+        "score": 142346348
       },
       {
         "hour": 16,
-        "union": 1,
-        "score": 171575850
+        "union": 2,
+        "score": 143394940
       },
       {
         "hour": 17,
-        "union": 1,
-        "score": 172624442
+        "union": 3,
+        "score": 144443532
       },
       {
         "hour": 18,
-        "union": 3,
-        "score": 173673034
+        "union": 1,
+        "score": 145492124
       },
       {
         "hour": 19,
-        "union": 2,
-        "score": 174721626
+        "union": 3,
+        "score": 146540716
       },
       {
         "hour": 20,
         "union": 2,
-        "score": 175770218
+        "score": 147589308
       },
       {
         "hour": 21,
-        "union": 1,
-        "score": 176818810
+        "union": 2,
+        "score": 148637900
       },
       {
         "hour": 22,
-        "union": 2,
-        "score": 177867402
+        "union": 3,
+        "score": 149686492
       },
       {
         "hour": 23,
-        "union": 3,
-        "score": 2714
+        "union": 1,
+        "score": 2284
       }
     ]
   }
